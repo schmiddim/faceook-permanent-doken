@@ -26,6 +26,7 @@
     *The token that appears in the "Access Token" field is your short-lived access token.*
         
 3. Generate Long-Lived Access Token
+    0. run **composer install**
     1. copy **config.php.dist** to **config.php** and fill out all variables
     2. execute **get-the-token.php** and pass the short lived token from Facebook
     3. Validate the generated token on [Facebook](https://developers.facebook.com/tools/debug/accesstoken/?q=EAAEnoXnaaGkBAAaLoIfLmwQjXe6MZCrNxMgX4yCwHPoyEIUYkPKR0NLYEjZBjsTFnzqc6oaj40AFpzZAlasHQaFAnKEpzNAfgTE1nSHCXR7lIBUE0P0AMP78wZAhlU9JZCcQdRpozZCGqMW4C5ZAO7k5caAH7ITZB7I5j1LdG4NRtQZDZD&version=v2.11)
