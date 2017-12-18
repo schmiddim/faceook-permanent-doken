@@ -1,0 +1,10 @@
+<?php
+
+const FACEBOOK = [
+
+
+    'pageId' => '<GET IT FROM FACEBOOK>',
+    'appId' =>  '<GET IT FROM FACEBOOK>',
+    'appSecret' =>  '<GET IT FROM FACEBOOK>',
+    'sessionToken' => '<THIS WILL BE GENERATED>',
+];
